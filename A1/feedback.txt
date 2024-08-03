@@ -1,0 +1,68 @@
+
+** Question 1: Exact Pattern Matching with Reversed Boyer-Moore **
+---------------------------------------------------------------------------
+
+Correct output: 1/1.0
+
+  - Extended Bad Character preprocessing: 0.5/0.5
+  - Z-algorithm implementation: 0.5/0.5
+  - GoodPrefix preprocessing: 1/1.0
+  - MatchedSuffix preprocessing: 1/1.0
+  - Correct shifting between BM iterations: 0.5/0.5
+  - BM optimization: 0.5/0.5
+
+Q1 Feedback:
+Excellent work! Your implementation passed the testcase. I really appreciate the illustrations and we
+ll-documented code. The breakdown of your marks are as follows,
+
+ - Correct Output (1 test case): Implementation returns the correct pattern occurrences in text for a
+ given testcase [1/1 marks] 
+
+ - Extended Bad Character (EBC) preprocessing: Correct implementation of EBC [0.5/0.5 mark] 
+ - Z-algorithm implementation:  Z-algorithm was implemented correctly [0.5/0.5 marks]
+ - GoodPrefix (GP) preprocessing:  Your GP implementation is correct [1/1 mark]
+ - MatchedSuffix (MS) preprocessing:  Correct implementation of MS [1/1 mark]
+ - Correct shifting between iterations:  Boyer-Moore shifting is correct [0.5/0.5 marks]
+ - Optimization: You have successfully incorporated Galil's optimization  [0.5/0.5 marks]
+
+Q1 Total: 5/5.0
+
+====================================================================
+
+** Question 2: Exact Pattern Matching with Bitvector**
+--------------------------------------------------------------------------
+
+Output: 1/1.0
+  - Precompute  Delta_j before handling text: 2/2.0
+
+**Managing Bitvectors**
+  - Update bitvector using shift-or operations: 1/1.0
+  - Exact match logic based on bitvector MSB: 1/1.0
+
+Q2 Feedback:
+Excellent work! Your implementation passed the test case. The breakdown of the marks are as follows 
+
+1. Output correctness: The required output is correctly generated [1M/1M]
+2. Precomputation of delta values: You have correctly precompute all necessary delta vectors for dist
+ict chars in alphabet [2M/2M]
+
+3. Iteratively computing Bitvectors: : Good approach of using z-algorithm for initial bitvector. You 
+have used the bit operations and identified the exact match correctly [2M/2M]
+
+
+Q2 Total: 5/5.0
+
+=====================================================================
+
+General Deductions:
+  - Deductions: 0
+  - Late Submission Penalty: 0
+
+General Feedback:
+   None
+=====================================================================
+
+Overall Mark: 10/10
+
+=====================================================================
+"

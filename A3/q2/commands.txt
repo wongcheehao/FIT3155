@@ -1,0 +1,5 @@
+delete Ascension
+insert Abstemious
+delete syzygy
+insert synchs
+delete slicks
